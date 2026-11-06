@@ -1,0 +1,349 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#122332" />
+    <meta name="color-scheme" content="light" />
+    <meta name="author" content="Lokesh Paidisetti" />
+    <meta name="description" content="Lokesh Paidisetti is a Computer Science student and AI-focused web developer in Kakinada, India. Explore independent projects and get in touch about a website, web app, or AI automation." />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Lokesh Paidisetti — Useful ideas, built for the web." />
+    <meta property="og:description" content="Computer Science student and AI-focused web developer. Open to freelance projects and early-career opportunities." />
+    <meta property="og:image" content="/og-image.png" />
+    <meta property="og:image:alt" content="Lokesh Paidisetti portfolio preview with an architectural miniature city." />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Lokesh Paidisetti — Useful ideas, built for the web." />
+    <meta name="twitter:description" content="Computer Science student and AI-focused web developer. Open to freelance projects and early-career opportunities." />
+    <meta name="twitter:image" content="/og-image.png" />
+    <title>Lokesh Paidisetti — Web Developer & Computer Science Student</title>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/src/styles.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Lokesh Paidisetti",
+        "jobTitle": "AI-focused Web Developer and Computer Science Student",
+        "description": "Computer Science student building responsive websites, web applications, and practical AI-powered tools.",
+        "email": "mailto:lokeshpaidisetti@gmail.com",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Kakinada",
+          "addressRegion": "Andhra Pradesh",
+          "addressCountry": "IN"
+        },
+        "sameAs": [
+          "https://www.linkedin.com/in/lokesh-paidisetti",
+          "https://github.com/paidisettilokesh"
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header" id="top">
+      <div class="header-inner shell">
+        <a class="brand" href="#top" aria-label="Lokesh Paidisetti, home">
+          <span class="brand-mark">LP</span>
+          <span class="brand-name">Lokesh Paidisetti</span>
+        </a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation">
+          <span></span><span></span>
+        </button>
+        <nav class="primary-nav" id="primary-nav" aria-label="Main navigation">
+          <a href="#work">Work</a>
+          <a href="#services">Services</a>
+          <a href="#journey">Journey</a>
+          <a href="#about">About</a>
+          <a class="nav-contact" href="#contact">Let’s talk <span aria-hidden="true">↗</span></a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero section-dark" aria-labelledby="hero-title">
+        <div class="hero-grid shell">
+          <div class="hero-copy">
+            <div class="availability"><span class="availability-dot"></span> Available for freelance projects</div>
+            <p class="eyebrow hero-eyebrow">AI-focused web developer <span>·</span> Computer Science student</p>
+            <h1 id="hero-title">Useful ideas,<br /><em>built for the web.</em></h1>
+            <p class="hero-intro">I’m Lokesh Paidisetti. I build responsive websites, web applications, and practical AI-powered tools — with a focus on clear user experiences and useful outcomes.</p>
+            <div class="hero-actions">
+              <a class="button button-accent" href="#work">Explore my work <span aria-hidden="true">↘</span></a>
+              <a class="button button-outline" href="#contact">Start a project <span aria-hidden="true">↗</span></a>
+            </div>
+            <div class="hero-meta">
+              <span><span class="meta-icon">⌖</span> Kakinada, Andhra Pradesh, India</span>
+              <span class="meta-separator" aria-hidden="true"></span>
+              <span>Open to early-career opportunities</span>
+            </div>
+          </div>
+
+          <div class="city-panel" aria-label="Interactive three-dimensional city navigation">
+            <div class="city-panel-top">
+              <span class="panel-kicker">A small city of ideas</span>
+              <span class="live-indicator"><i></i> INTERACTIVE SCENE</span>
+            </div>
+            <div class="city-stage" id="city-stage">
+              <canvas id="city-canvas" aria-label="Interactive 3D architectural city. Hover over buildings to discover locations. Drag to rotate and use the scroll wheel to zoom." tabindex="0"></canvas>
+              <div class="city-fallback" id="city-fallback" hidden>
+                <div class="fallback-skyline" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+                <p>Interactive 3D is unavailable right now. Use the directory below to explore each section.</p>
+                <div class="fallback-links">
+                  <a href="#resulens">ResuLens — AI Resume Analyzer</a>
+                  <a href="#syntra">Syntra AI — Email Intelligence</a>
+                  <a href="#services">Services — What I can build</a>
+                  <a href="#journey">Journey — Experience & Education</a>
+                  <a href="#contact">Contact — Start a conversation</a>
+                </div>
+              </div>
+              <div class="city-hotspots" role="region" aria-label="Interactive architectural locations">
+                <button type="button" class="city-hotspot-btn" data-point="resulens" aria-label="ResuLens: AI Resume Analyzer. Select to navigate to project." tabindex="0"></button>
+                <button type="button" class="city-hotspot-btn" data-point="syntra" aria-label="Syntra AI: Email Intelligence. Select to navigate to project." tabindex="0"></button>
+                <button type="button" class="city-hotspot-btn" data-point="services" aria-label="Services: What I can build. Select to navigate to services." tabindex="0"></button>
+                <button type="button" class="city-hotspot-btn" data-point="journey" aria-label="Journey: Experience & Education. Select to navigate to journey." tabindex="0"></button>
+                <button type="button" class="city-hotspot-btn" data-point="contact" aria-label="Contact: Start a conversation. Select to navigate to contact." tabindex="0"></button>
+              </div>
+              <div class="city-tooltip" id="city-tooltip" role="tooltip" aria-hidden="true">
+                <div class="tooltip-connector" aria-hidden="true"></div>
+                <div class="tooltip-card">
+                  <div class="tooltip-top">
+                    <span class="tooltip-dot"></span>
+                    <span class="tooltip-kicker" id="tooltip-kicker">PROJECT 01</span>
+                    <button type="button" class="tooltip-dismiss" id="tooltip-dismiss" aria-label="Dismiss location info">✕</button>
+                  </div>
+                  <h4 class="tooltip-title" id="tooltip-title">ResuLens</h4>
+                  <p class="tooltip-subtitle" id="tooltip-subtitle">AI Resume Analyzer</p>
+                  <a class="tooltip-action" id="tooltip-action" href="#resulens" tabindex="0">
+                    <span id="tooltip-action-text">Explore project</span> <span aria-hidden="true">↗</span>
+                  </a>
+                </div>
+              </div>
+              <div class="city-caption"><span>FIG. 01 — ARCHITECTURAL MINIATURE</span><span>HOVER BUILDINGS TO DISCOVER <b>·</b> DRAG TO ORBIT</span></div>
+              <div class="city-controls" aria-label="City controls">
+                <button type="button" id="city-zoom-out" aria-label="Zoom out">−</button>
+                <button type="button" id="city-reset" aria-label="Reset city view">↺</button>
+                <button type="button" id="city-zoom-in" aria-label="Zoom in">+</button>
+              </div>
+            </div>
+            <p class="city-note"><span class="note-line"></span> An interactive architectural map. Hover or tap buildings to discover projects and sections.</p>
+            <div class="city-legend" aria-label="City navigation guide"><span><i class="legend-dot legend-teal"></i> Architectural landmarks</span><span><i class="legend-dot legend-amber"></i> Interactive hotspots</span></div>
+          </div>
+        </div>
+        <div class="hero-bottom shell"><span>INDEPENDENT PROJECTS <b>·</b> PRACTICAL PROBLEM SOLVING</span><a href="#work">Scroll to explore <span aria-hidden="true">↓</span></a></div>
+      </section>
+
+      <section class="work-section section-light section-pad" id="work" aria-labelledby="work-title">
+        <div class="shell">
+          <div class="section-heading heading-row">
+            <div><p class="eyebrow">01 / Selected work</p><h2 id="work-title">Projects with a<br /><em>purpose behind them.</em></h2></div>
+            <p class="section-lede">A selection of independent projects where I’ve explored web development, AI integration, document processing, and automation.</p>
+          </div>
+
+          <article class="project-card project-resulens" id="resulens">
+            <div class="project-visual resume-visual" role="img" aria-label="Abstract visual illustration of a resume analysis interface">
+              <div class="visual-window">
+                <div class="window-top"><span class="window-dots"><i></i><i></i><i></i></span><span>RESULENS / REVIEW</span><span class="window-status">CONCEPT UI</span></div>
+                <div class="resume-ui">
+                  <div class="resume-sheet"><div class="sheet-avatar"></div><div class="sheet-line sheet-name"></div><div class="sheet-line short"></div><div class="sheet-rule"></div><div class="sheet-label">EXPERIENCE</div><div class="sheet-line"></div><div class="sheet-line medium"></div><div class="sheet-line"></div><div class="sheet-rule"></div><div class="sheet-label">SKILLS</div><div class="sheet-tags"><i></i><i></i><i></i></div><div class="sheet-line medium"></div></div>
+                  <div class="analysis-sheet"><div class="analysis-heading">Review overview <span>↗</span></div><div class="analysis-row"><span>Document parsing</span><b>Ready</b></div><div class="analysis-track"><i style="width:82%"></i></div><div class="analysis-row"><span>Keyword review</span><b>Matched</b></div><div class="analysis-track"><i style="width:66%"></i></div><div class="analysis-row"><span>Suggestions</span><b>Available</b></div><div class="suggestion"><i></i><span>Highlight measurable work where relevant.</span></div><div class="suggestion"><i></i><span>Align skills with the target role.</span></div></div>
+                </div>
+              </div>
+              <span class="visual-index">PROJECT VISUAL — CONCEPTUAL UI</span>
+            </div>
+            <div class="project-content">
+              <div class="project-meta"><span>AI APPLICATION / CAREER TOOLS</span><span class="project-number">01</span></div>
+              <h3>ResuLens <span>— AI Resume Analyzer</span></h3>
+              <p>An AI-assisted resume review tool that evaluates ATS compatibility and offers practical improvement suggestions. I built PDF/DOCX parsing, keyword-matching logic, and an ATS compatibility score.</p>
+              <p class="project-detail">The responsive React and Tailwind CSS frontend connects to a Flask backend that integrates AI APIs. Tested with 20–25 sample resumes during development.</p>
+              <div class="tag-list"><span>React</span><span>Tailwind CSS</span><span>Flask</span><span>PDF / DOCX parsing</span><span>AI APIs</span></div>
+              <div class="axonometric-architecture" aria-label="ResuLens 3D system architecture">
+                <div class="axono-header">
+                  <span class="axono-badge">3D SYSTEM ARCHITECTURE</span>
+                  <span class="axono-hint">AXONOMETRIC PERSPECTIVE</span>
+                </div>
+                <div class="axono-stage">
+                  <div class="axono-layer layer-client">
+                    <span class="layer-tier">TIER 01 / CLIENT</span>
+                    <strong class="layer-title">React UI + Document Parser</strong>
+                    <small class="layer-desc">Client-side PDF/DOCX chunking & ATS scoring UI</small>
+                  </div>
+                  <div class="axono-link">
+                    <span class="axono-pulse"></span>
+                    <span class="link-label">REST / JSON</span>
+                  </div>
+                  <div class="axono-layer layer-api">
+                    <span class="layer-tier">TIER 02 / MIDDLEWARE</span>
+                    <strong class="layer-title">Flask API & Parsing Engine</strong>
+                    <small class="layer-desc">Sanitization, keyword extraction & schema validation</small>
+                  </div>
+                  <div class="axono-link">
+                    <span class="axono-pulse"></span>
+                    <span class="link-label">SECURE CALL</span>
+                  </div>
+                  <div class="axono-layer layer-ai">
+                    <span class="layer-tier">TIER 03 / INTELLIGENCE</span>
+                    <strong class="layer-title">AI Scoring & Feedback Models</strong>
+                    <small class="layer-desc">Contextual matching against target JD requirements</small>
+                  </div>
+                </div>
+              </div>
+              <div class="project-links">
+                <a class="text-link" href="https://resulens-vr2-1btg.vercel.app/" target="_blank" rel="noreferrer">Open live demo <span aria-hidden="true">↗</span></a>
+                <a class="text-link" href="https://github.com/paidisettilokesh/resulens-vr2" target="_blank" rel="noreferrer">GitHub repository <span aria-hidden="true">↗</span></a>
+                <span class="project-type">Independent project</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card project-syntra" id="syntra">
+            <div class="project-content">
+              <div class="project-meta"><span>AI AUTOMATION / EMAIL INTELLIGENCE</span><span class="project-number">02</span></div>
+              <h3>Syntra AI <span>— Autonomous Email Intelligence</span></h3>
+              <p>A platform that monitors Gmail inboxes and uses large language models to summarize, classify, and prioritize messages. It includes risk analysis, activity history in SQLite, and Telegram alerts for important or suspicious emails.</p>
+              <p class="project-detail">The system includes automated unit and integration tests, provider fallback, structured logging, and retry handling.</p>
+              <div class="tag-list"><span>Python</span><span>LLM integration</span><span>Gmail API</span><span>SQLite</span><span>Telegram Bot API</span></div>
+              <div class="axonometric-architecture" aria-label="Syntra AI 3D workflow architecture">
+                <div class="axono-header">
+                  <span class="axono-badge">3D SYSTEM ARCHITECTURE</span>
+                  <span class="axono-hint">AXONOMETRIC PERSPECTIVE</span>
+                </div>
+                <div class="axono-stage">
+                  <div class="axono-layer layer-client">
+                    <span class="layer-tier">TIER 01 / INGESTION</span>
+                    <strong class="layer-title">Gmail API Ingestion Stream</strong>
+                    <small class="layer-desc">Encrypted OAuth hook & webhook inbox monitor</small>
+                  </div>
+                  <div class="axono-link">
+                    <span class="axono-pulse"></span>
+                    <span class="link-label">STREAM PIPE</span>
+                  </div>
+                  <div class="axono-layer layer-api">
+                    <span class="layer-tier">TIER 02 / ANALYSIS</span>
+                    <strong class="layer-title">LLM Priority & Risk Classifier</strong>
+                    <small class="layer-desc">Zero-shot categorization, sentiment & phishing analysis</small>
+                  </div>
+                  <div class="axono-link">
+                    <span class="axono-pulse"></span>
+                    <span class="link-label">DISPATCH</span>
+                  </div>
+                  <div class="axono-layer layer-ai">
+                    <span class="layer-tier">TIER 03 / DISPATCH & PERSISTENCE</span>
+                    <strong class="layer-title">Telegram Alerts & SQLite Vault</strong>
+                    <small class="layer-desc">Real-time critical notification & searchable event history</small>
+                  </div>
+                </div>
+              </div>
+              <div class="project-links">
+                <a class="text-link" href="https://github.com/paidisettilokesh/Syntra-ai" target="_blank" rel="noreferrer">GitHub repository <span aria-hidden="true">↗</span></a>
+                <span class="project-type">Independent project</span>
+              </div>
+            </div>
+            <div class="project-visual syntra-visual" role="img" aria-label="Abstract visual illustration of an email intelligence workflow">
+              <div class="workflow-board">
+                <div class="workflow-heading"><span>MESSAGE FLOW</span><span class="workflow-live"><i></i> AUTOMATION MAP</span></div>
+                <div class="flow-node gmail-node"><span class="node-icon">G</span><span><b>Gmail inbox</b><small>Incoming messages</small></span><i class="node-check">✓</i></div>
+                <div class="flow-connector"><i></i></div>
+                <div class="flow-node ai-node"><span class="node-icon ai-icon">✳</span><span><b>AI analysis</b><small>Summarize · classify · assess</small></span><i class="node-check">✓</i></div>
+                <div class="flow-branches"><i></i><i></i></div>
+                <div class="flow-output"><div class="output-card"><span class="output-dot teal"></span><b>Priority alert</b><small>Telegram</small></div><div class="output-card"><span class="output-dot amber"></span><b>Activity log</b><small>SQLite history</small></div></div>
+              </div>
+              <span class="visual-index">PROJECT VISUAL — WORKFLOW DIAGRAM</span>
+            </div>
+          </article>
+          <p class="independent-note"><span class="tiny-star">✳</span> Both projects are independently built as part of my learning and development work — not client engagements.</p>
+        </div>
+      </section>
+
+      <section class="services-section section-dark section-pad" id="services" aria-labelledby="services-title">
+        <div class="shell">
+          <div class="section-heading heading-row light-heading">
+            <div><p class="eyebrow">02 / What I can build</p><h2 id="services-title">Good ideas deserve<br /><em>thoughtful execution.</em></h2></div>
+            <p class="section-lede">I’m looking to take on my first freelance projects and work with people who need a practical digital solution.</p>
+          </div>
+          <div class="service-grid">
+            <article class="service-card"><span class="service-index">01</span><div class="service-icon icon-browser"><i></i><i></i><i></i></div><h3>Responsive websites</h3><p>Business websites and landing pages that present your offering clearly and work across phones, tablets, and desktops.</p><span class="service-foot">FOR LOCAL BUSINESSES & FOUNDERS</span></article>
+            <article class="service-card"><span class="service-index">02</span><div class="service-icon icon-stack"><i></i><i></i><i></i></div><h3>Full-stack applications</h3><p>Useful web applications and prototypes, from clear user interfaces to APIs and data storage.</p><span class="service-foot">FOR STARTUPS & INDIVIDUALS</span></article>
+            <article class="service-card"><span class="service-index">03</span><div class="service-icon icon-spark">✳</div><h3>AI & workflow automation</h3><p>Focused AI-powered tools and automations that help reduce repetitive steps and organize information.</p><span class="service-foot">FOR TEAMS & PRACTICAL IDEAS</span></article>
+          </div>
+          <div class="services-bottom"><p>Starting a new business, improving an existing workflow, or exploring an idea? I’m open to discussing projects of different sizes and scopes.</p><a class="button button-accent" href="#contact">Tell me what you’re planning <span aria-hidden="true">↗</span></a></div>
+        </div>
+      </section>
+
+      <section class="journey-section section-light section-pad" id="journey" aria-labelledby="journey-title">
+        <div class="shell">
+          <div class="section-heading heading-row">
+            <div><p class="eyebrow">03 / Experience & education</p><h2 id="journey-title">Learning by building.<br /><em>Growing with intent.</em></h2></div>
+            <p class="section-lede">My current path combines formal computer science study with guided internship experience and independent practice.</p>
+          </div>
+          <div class="journey-layout">
+            <div class="timeline-column">
+              <div class="timeline-label">EXPERIENCE</div>
+              <article class="timeline-item current-item"><span class="timeline-marker"></span><div class="timeline-top"><span>MERN STACK INTERN</span><time>45-day virtual internship</time></div><h3>ADHOC Networks</h3><p>Completed mentor-guided assignments and mini-projects using MongoDB, Express.js, React.js, and Node.js. Developed a working understanding of client-server architecture and REST APIs.</p><div class="tag-list"><span>MongoDB</span><span>Express.js</span><span>React.js</span><span>Node.js</span></div></article>
+              <div class="timeline-label education-label">EDUCATION</div>
+              <article class="timeline-item"><span class="timeline-marker"></span><div class="timeline-top"><span>B.SC. COMPUTER SCIENCE</span><time>Aug 2024 — Mar 2027</time></div><h3>Aditya Degree College</h3><p>Kakinada, Andhra Pradesh <span class="status-inline">Currently pursuing</span></p></article>
+              <article class="timeline-item"><span class="timeline-marker"></span><div class="timeline-top"><span>INTERMEDIATE — MPC</span><time>Apr 2022 — May 2024</time></div><h3>Carmel Junior College</h3><p>Kallata <span class="score-inline">80.8%</span></p></article>
+              <article class="timeline-item"><span class="timeline-marker"></span><div class="timeline-top"><span>SECONDARY SCHOOL (SSC)</span><time>Completed 2022</time></div><h3>Z.P.H. School</h3><p>Metturu <span class="score-inline">75%</span></p></article>
+            </div>
+            <aside class="journey-aside">
+              <div class="aside-card"><span class="aside-overline">A NOTE ON MY APPROACH</span><p>Strong fundamentals matter. So does shipping something, testing it, finding what breaks, and improving the next version.</p><div class="aside-signature">— Lokesh</div></div>
+              <div class="aside-facts"><div><span>01</span><b>Formal study</b><small>Computer Science</small></div><div><span>02</span><b>Guided practice</b><small>MERN Stack internship</small></div><div><span>03</span><b>Independent work</b><small>Projects & experiments</small></div></div>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <section class="about-section section-sand section-pad" id="about" aria-labelledby="about-title">
+        <div class="shell">
+          <div class="section-heading heading-row">
+            <div><p class="eyebrow">04 / A little about me</p><h2 id="about-title">Curious by nature.<br /><em>Practical by habit.</em></h2></div>
+            <p class="section-lede">I’m a Computer Science student interested in the space where web technology, automation, and AI can solve everyday problems. I enjoy learning through hands-on projects and collaboration.</p>
+          </div>
+          <div class="toolkit-layout">
+            <div class="toolkit-main">
+              <div class="toolkit-header"><h3>Current toolkit</h3><span>SKILLS, NOT SENIORITY CLAIMS</span></div>
+              <div class="skill-group"><div class="skill-label"><span>01</span><b>Programming foundations</b><small>Fundamentals</small></div><div class="skill-tags"><span>Java</span><span>C</span><span>Python</span><span>HTML</span><span>CSS</span><span>JavaScript</span></div></div>
+              <div class="skill-group"><div class="skill-label"><span>02</span><b>Project-based experience</b><small>Actively deepening</small></div><div class="skill-tags"><span>React.js</span><span>Node.js</span><span>Express.js</span><span>MongoDB</span><span>Flask</span></div></div>
+              <div class="skill-group"><div class="skill-label"><span>03</span><b>AI & automation</b><small>Applied in projects</small></div><div class="skill-tags"><span>LLM integration</span><span>Email automation</span><span>Telegram Bot API</span></div></div>
+              <div class="skill-group"><div class="skill-label"><span>04</span><b>Data & tools</b><small>Working toolkit</small></div><div class="skill-tags"><span>SQL</span><span>SQLite</span><span>Git</span><span>GitHub</span><span>VS Code</span></div></div>
+            </div>
+            <div class="about-side">
+              <div class="credential-card"><p class="eyebrow">Learning & certifications</p><ul><li>Cisco C Essentials 1 & 2</li><li>Cisco Python Essentials 1</li><li>Introduction to Cloud Computing</li><li>ULearn AI & ML Research Program</li></ul></div>
+              <div class="activities-card"><p class="eyebrow">Campus & community</p><div class="activity-row"><span>01</span><div><b>Campus Ambassador</b><p>Promoted institutional programs and coordinated student engagement.</p></div></div><div class="activity-row"><span>02</span><div><b>ACM Club Coordinator</b><p>Organized technical events, workshops, and student activities.</p></div></div><div class="activity-row"><span>03</span><div><b>Cross Stack Buildathon</b><p>Presented ResuLens as an independent project.</p></div></div></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-section section-dark section-pad" id="contact" aria-labelledby="contact-title">
+        <div class="shell contact-shell">
+          <div class="contact-copy"><p class="eyebrow">05 / Contact</p><h2 id="contact-title">Have an idea?<br /><em>Let’s make it useful.</em></h2><p class="contact-lede">Tell me what you’re working on, what you need, and what a good outcome would look like. I’m open to conversations with local businesses, startups, founders, and individuals.</p><a class="button button-accent contact-cta" href="mailto:lokeshpaidisetti@gmail.com?subject=Freelance%20project%20inquiry%20for%20Lokesh">Start a project inquiry <span aria-hidden="true">↗</span></a></div>
+          <div class="contact-details">
+            <div class="contact-item"><span>EMAIL</span><a href="mailto:lokeshpaidisetti@gmail.com">lokeshpaidisetti@gmail.com <span>↗</span></a></div>
+            <div class="contact-item"><span>PHONE</span><a href="tel:+919493909629">+91 94939 09629 <span>↗</span></a></div>
+            <div class="contact-item"><span>LINKEDIN</span><a href="https://www.linkedin.com/in/lokesh-paidisetti" target="_blank" rel="noreferrer">linkedin.com/in/lokesh-paidisetti <span>↗</span></a></div>
+            <div class="contact-item"><span>GITHUB</span><a href="https://github.com/paidisettilokesh" target="_blank" rel="noreferrer">github.com/paidisettilokesh <span>↗</span></a></div>
+            <div class="contact-location" aria-label="Geographic & Remote Availability Node">
+              <div class="spatial-beacon">
+                <span class="beacon-orbit"></span>
+                <span class="beacon-ring ring-outer"></span>
+                <span class="location-symbol">⌖</span>
+              </div>
+              <div>
+                <b>Kakinada, Andhra Pradesh</b>
+                <small>India · 16.9891° N, 82.2475° E · Available for remote work worldwide</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer"><div class="shell footer-inner"><a class="footer-brand" href="#top">LP<span>.</span></a><p>Thoughtful work, built one step at a time.</p><span>© <span id="year">2026</span> Lokesh Paidisetti</span><a class="back-top" href="#top">Back to top ↑</a></div></footer>
+    <script type="module" src="/src/app.js"></script>
+  </body>
+</html>

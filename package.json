@@ -1,0 +1,12 @@
+{
+  "name": "lokesh-paidisetti-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A responsive personal portfolio for Lokesh Paidisetti, with an interactive WebGL city scene.",
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "build": "node scripts/build.mjs",
+    "preview": "node scripts/preview.mjs"
+  }
+}

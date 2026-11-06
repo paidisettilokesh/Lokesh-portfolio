@@ -1,0 +1,11 @@
+import { cp, mkdir, rm } from 'node:fs/promises';
+import { fileURLToPath } from 'node:url';
+import { join } from 'node:path';
+const root=fileURLToPath(new URL('../',import.meta.url));
+const out=join(root,'dist');
+await rm(out,{recursive:true,force:true});
+await mkdir(out,{recursive:true});
+await cp(join(root,'index.html'),join(out,'index.html'));
+await cp(join(root,'src'),join(out,'src'),{recursive:true});
+await cp(join(root,'public'),join(out),{recursive:true});
+console.log('Static production build written to dist/');
